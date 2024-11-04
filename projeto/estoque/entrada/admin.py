@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+# Register your models her.
+from .models import Entradas
+
+admin.site.register(Entradas)
